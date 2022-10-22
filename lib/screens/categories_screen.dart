@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_screens/category_item.dart';
+
 import 'package:flutter_screens/dummy-data.dart';
+
+import '../widgets/category_item.dart';
 
 class CategiriesScreen extends StatelessWidget {
   const CategiriesScreen({Key key}) : super(key: key);
