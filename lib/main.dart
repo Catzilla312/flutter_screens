@@ -26,6 +26,21 @@ class MyApp extends StatelessWidget {
           return MealDetailsScreen();
         })
       },
+      // onGenerateRoute: ((settings) {
+      //   print(settings.arguments);
+      //   return MaterialPageRoute(
+      //     builder: ((context) {
+      //       return CategiriesScreen();
+      //     }),
+      //   );
+      // }),
+      onUnknownRoute: (settings) {
+        return MaterialPageRoute(
+          builder: ((context) {
+            return CategiriesScreen();
+          }),
+        );
+      },
     );
   }
 }
